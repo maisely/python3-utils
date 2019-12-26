@@ -1,12 +1,10 @@
-name = "Maise"
-hobby = "exercise"
-
-
 def get_name(n, h):
     return f"Hi my name is {n} and I like {h}"
 
 
 person = {"id": 1000, "age": 27}
+name = "Maise"
+hobby = "exercise"
 
 text1 = "Hi my name is {} and I like {}".format(name, hobby)
 text2 = "Hi my name is %s and I like %s" % (name, hobby)
